@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to bottom, #999999 0%, #666666 100%);
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sidebar .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.logout-form {
+    position: absolute;
+    bottom: 20px;
+}
+
+.logout{
+    cursor: pointer;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.novo-produto {
+    display: inline-block;
+    margin-top: 20px;
+}
